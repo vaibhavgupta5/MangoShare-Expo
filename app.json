@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "MangoShare",
+    "slug": "mangoshare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/mango-icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0A"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "jsEngine": "hermes",
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow MangoShare to save photos to your library.",
+          "savePhotosPermission": "Allow MangoShare to save photos to your library.",
+          "audioPermission": "Allow MangoShare to save audio.",
+          "videoPermission": "Allow MangoShare to save video."
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.vaibhav.mangoshare",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/mango-icon.png",
+        "backgroundColor": "#0A0A0A"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_MEDIA_IMAGES",
+        "READ_MEDIA_VIDEO",
+        "READ_MEDIA_AUDIO",
+        "MEDIA_CONTENT_CONTROL"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
