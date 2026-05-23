@@ -13,7 +13,8 @@
       "backgroundColor": "#0A0A0A"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vaibhav.mangoshare"
     },
     "jsEngine": "hermes",
     "plugins": [
